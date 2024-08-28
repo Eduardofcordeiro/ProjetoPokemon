@@ -1,0 +1,33 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-image: url("https://c.wallhere.com/photos/f6/b7/Pok_mon_Pok_Balls_Pok_balls_Pikachu_minimalism_Ash_Ketchum_anime-633661.jpg!s1");
+    /* background-size: cover; */
+    background-size: auto;
+}
+
+
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        margin:1rem auto;
+        border-radius: 1rem;
+
+    }
+    
+}
+
+
+

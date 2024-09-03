@@ -26,5 +26,5 @@ poke-api.js- Carrega consigo a busca pela API 'PokéAPI'.
 pokemon-model.js- Carrega consigo parametros para a realização das buscas na API.
 
 
-
+Site: https://eduardofcordeiro.github.io/ProjetoPokemon/
 

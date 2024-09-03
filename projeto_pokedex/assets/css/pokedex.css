@@ -180,12 +180,18 @@
     }
 }
 
-#popupMenu, .h1{
-    text-align: center;
-    display: none;
-}
 
 #GeracaoButton{
+    text-align: center;
+    display: flex;
+    margin: .2rem;
+    padding: .8rem .5rem;
+    background-color: #77c850;
+    color: #ffffff;
+    border-radius: 1rem;
+    text-transform: capitalize;
+}
+#GeracaoButton1{
     text-align: center;
     display: flex;
     margin: .2rem;
@@ -269,9 +275,10 @@
     text-transform: capitalize;
 }
 
-/* Icone de menu no canto superior esquerdo */
+/* Icone de menu no canto superior esquerdo  */
 .menu-icon {
     font-size: 30px;
+    color: yellow;
     cursor: pointer;
     position: fixed;
     top: 10px;
@@ -285,20 +292,24 @@
     position: fixed;
     top: 10px;
     left: 10px;
-    background-color: transparent;
+    background-color: rgb(71, 70, 70);
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 999;
     padding: 10px;
     border-radius: 5px;
-    width: 200px; /* Limita a largura do pop-up */
+    width: 200px;
 }
 
-/* Layout em grid para os botões */
+#popupMenu, .h1{
+    text-align: center;
+    display: none;
+}
+
 .filtragem {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 colunas */
-    grid-auto-rows: minmax(50px, auto); /* altura mínima de 50px */
-    gap: 10px; /* espaçamento entre os botões */
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    gap: 10px;
 }
 
 /* Estilo dos botões */

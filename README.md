@@ -9,9 +9,12 @@ Raiz:
 index.html- Carrega consigo as informações mostradas na tela.
 
 Assets:
+
 css:
 global.css- Carrega consigo a estilização a nível global.
+
 pokedex.css- Carrega consigo a estilização dos conteúdos relacionados aos pokemons e a fitragem que ocorre por meio dos botões dispostos no html.
+
 Js:
 main.js- Carrega consigo toda a parte dinâmica apresentada no html.
 poke-api.js- Carrega consigo a busca pela API 'PokéAPI'.
